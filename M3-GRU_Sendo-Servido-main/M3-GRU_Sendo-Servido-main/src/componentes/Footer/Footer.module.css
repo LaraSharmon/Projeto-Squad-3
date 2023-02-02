@@ -1,0 +1,50 @@
+.footer {
+  /* background: linear-gradient(to left, #21d4fd, #b721ff); */
+  background-color: #21d4fd;
+  width: 100%;
+  color: #fff;
+  padding: 3em;
+  text-align: center;
+  bottom: 0;
+}
+
+.social_list {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.social_list li {
+  margin: 0 1em;
+  transition: 0.2s ease-in-out;
+}
+
+.social_list svg {
+    cursor: pointer;
+    font-size: 1.5em;
+    border-radius: 100%;
+}
+
+.copy_right {
+  margin-top: 1em;
+}
+
+.copy_right span {
+  font-weight: bold;
+}
+
+.social_list svg:hover {
+  background: -webkit-linear-gradient(360deg, #b721ff, #21d4fd, #b721ff);
+  background-size: 300%;
+  animation: backColor 5s linear infinite;
+
+}
+
+@keyframes backColor {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 300%;
+  }
+}

@@ -1,0 +1,132 @@
+body {
+  margin: auto;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  max-width: 80%;
+  background-color: rgba(0, 0, 0, 0.151);
+}
+
+.text-home-h1 {
+  text-align: center;
+  font-size: 50px;
+  margin: 60px 0 0 0;
+}
+
+.text-home-h2 {
+  text-align: center;
+  color: #9027C2;
+  font-size: 25px;
+}
+
+.text-home-h4 {
+  color: #9d51c0;
+}
+
+.slogan {
+  text-align: center;
+  font-size: 15px;
+  color: rgb(248, 4, 248);
+  margin: 0 0 20px 0;
+}
+
+.text-home-p {
+  text-align: justify;
+  text-indent: 30px;
+  font-weight: 600;
+}
+
+.inner {
+  display: flex;
+}
+
+.item {
+  min-height: 70vh;
+  min-width: 46vw;
+  padding: 5px;
+}
+
+.item img {
+  width: 100%;
+  height: 90%;
+  border-radius: 8px;
+  pointer-events: none;
+}
+
+.carousel {
+  cursor: grab;
+  overflow: hidden;
+  height: 75vh;
+}
+
+.buttons {
+  width: 100%;
+  text-align: center;
+}
+
+.button-home {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.button-home img {
+  width: 3.5vw;
+}
+
+.button-home:first-child img {
+  transform: rotate(180deg);
+}
+
+ 
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+
+}
+.card {
+  border-radius: 5px;
+  box-shadow: 7px 7px 13px 0px rgb(248, 4, 248);
+  padding: 30px;
+  margin: 30px;
+  width: 400px;
+  height: 431px;
+  transition: all 0.3s ease-out;
+  background: linear-gradient(#4895ff, #9027C2);
+  background-size:150% 
+
+}
+.card:hover {
+  transform: translateY(-35px);
+  cursor: pointer;
+}
+ 
+.card p   {
+  font-size: 16px;
+}
+ 
+.imagem-card {
+  float:center;
+  width: 310px;
+  height: 255px;
+  border: 2px solid rgb(#9027C2);
+  border-radius: 20px;
+}
+.blue {
+  border-left: 3px solid #4895ff;
+}
+ 
+.green {
+  border-left: 3px solid #ffffff;
+  
+}
+ 
+.red {
+  border-left: 3px solid #b3404a;
+}
