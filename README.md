@@ -1,6 +1,4 @@
-# Projeto-Squad-3
-
-# Sendo Servido
+# Projeto-Squad-3 # Servido
 ![NPM](https://img.shields.io/npm/l/react)
 
 
